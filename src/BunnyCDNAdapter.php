@@ -14,6 +14,7 @@ use PlatformCommunity\Flysystem\BunnyCDN\Exceptions\BunnyCDNException;
 use PlatformCommunity\Flysystem\BunnyCDN\Exceptions\NotFoundException;
 use RuntimeException;
 use stdClass;
+use DateTime;
 
 class BunnyCDNAdapter extends AbstractAdapter
 {

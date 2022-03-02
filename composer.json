@@ -1,5 +1,5 @@
 {
-    "name": "platformcommunity/flysystem-bunnycdn",
+    "name": "dependencies-org/flysystem-bunnycdn",
     "description": "Flysystem adapter for BunnyCDN",
     "license": "MIT",
     "authors": [

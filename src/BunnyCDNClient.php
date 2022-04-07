@@ -54,6 +54,8 @@ class BunnyCDNClient
                     'Accept' => '*/*',
                     'AccessKey' => $this->api_key, # Honestly... Why do I have to specify this twice... @BunnyCDN
                 ],
+                'connect_timeout' => 3,
+                'timeout' => 5,
             ], $options)
         );
 
